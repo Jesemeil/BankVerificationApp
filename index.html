@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="index.css">
+    <title>Ajaybank</title>
+    <h1 style="color: orange">AJ Bank</h1>
+
+</head>
+<body>
+    <main>
+        <div class="main">
+            <div>
+            <form id="verificationForm" style="display: flex; flex-direction: column;">
+                <p>Hello, User</p>
+                <label style="display: flex; flex-direction: column; margin-bottom: 12px;">
+                    Account Number
+                    <input type="text" id="accountNumberInput" style="width: 307px; height: 40px;">
+                </label>
+                <label style="display: flex; flex-direction: column; margin-bottom: 12px;">
+                    Bank
+                    <select id="bankSelect" name="bankSelect" style="width: 313px; height: 45px;">
+                    </select>
+                </label>
+                <button type="submit" style="width: 100px; height: 40px;
+                border-radius: 10px; border: none; cursor: pointer;
+                background-color: rgb(5, 173, 52); color: white;">Verify</button>
+            </form>
+            <div id="result"></div>
+        </div>
+        </div>
+    </main>
+</body>
+</html>
